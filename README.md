@@ -16,3 +16,6 @@ Open the notebook in Google Colab, select a GPU runtime, and run all cells. The 
 The programs check CUDA API errors, kernel launches, and CPU/GPU result agreement. The bounds checks in Exercises 5 and 6 stop extra threads from accessing elements beyond the arrays. Exercise 6 needs approximately 1.2 GB of GPU memory and 1.2 GB of host memory for the three arrays.
 
 The course PDF is not redistributed here; obtain it from the SE3082 CourseWeb module. Runtime outputs are intentionally left empty in the generated notebook until it has been run on a real GPU.
+# Executed notebook
+
+The [Colab notebook with real T4 GPU outputs](https://colab.research.google.com/drive/1fQA3-KWr09jJNbKzMRf-xTgqXe-LJo1e) verified all CUDA exercises with zero mismatches, including 10 million vector elements and the 10,000 × 10,000 matrix case.
